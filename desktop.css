@@ -17,6 +17,35 @@ body {
   font-family: "Lumanosimo", cursive;
   display: flex;
   text-align: left;
-  padding-top: 150px;
+  margin-top: 150px;
   padding-left: 5rem;
+  font-size: 3rem;
+  transition: 0.2s;
+}
+
+#title {
+  margin-top: 0;
+  font-size: 1.5rem;
+  animation: skew 3s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes skew {
+  0% {
+    transform: skewX(20deg);
+    color: brown;
+  }
+  100% {
+    transform: skewX(-20deg);
+    color: lightcoral;
+  }
+}
+
+.header {
+  display: flex;
+}
+
+#name:hover {
+  transform: scale(1.5);
+  cursor: default;
 }

@@ -20,3 +20,21 @@ body {
   padding-top: 150px;
   justify-content: center;
 }
+
+#title {
+  padding-top: 0;
+  font-size: 1.5rem;
+  animation: skew 3s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes skew {
+  0% {
+    transform: skewX(20deg);
+    color: brown;
+  }
+  100% {
+    transform: skewX(-20deg);
+    color: lightcoral;
+  }
+}
