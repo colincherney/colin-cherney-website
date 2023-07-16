@@ -1,0 +1,22 @@
+body {
+  background: black;
+  background-size: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 13px;
+  color: white;
+  font-family: "Lumanosimo", cursive;
+}
+
+.name {
+  color: white;
+  font-family: "Lumanosimo", cursive;
+  display: flex;
+  text-align: left;
+  padding-top: 150px;
+  justify-content: center;
+}
