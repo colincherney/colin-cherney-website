@@ -152,7 +152,7 @@ footer {
   justify-content: center;
 }
 
-#etch-a-sketch {
+.gif {
   height: 300px;
   width: auto;
   margin-top: 20px;
@@ -183,4 +183,12 @@ footer {
 
 .projectTitle {
   color: white;
+}
+
+#rock {
+  margin-top: 200px;
+}
+
+#calculatorGif {
+  margin-top: 200px;
 }

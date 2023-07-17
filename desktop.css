@@ -173,7 +173,7 @@ footer {
   justify-content: center;
 }
 
-#etch-a-sketch {
+.gif {
   height: 250px;
   width: auto;
   margin-top: 20px;
@@ -200,4 +200,12 @@ footer {
 
 .etch {
   margin-bottom: 20px;
+}
+
+#rock {
+  margin-top: 200px;
+}
+
+#calculatorGif {
+  margin-top: 200px;
 }
