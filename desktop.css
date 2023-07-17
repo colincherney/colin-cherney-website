@@ -78,3 +78,34 @@ body {
 #projects {
   margin-bottom: 1000px;
 }
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar a:visited {
+  color: white;
+}
+
+.navbar h1:active {
+  animation: rotate 0.1s 1;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(120deg);
+    color: brown;
+  }
+  50% {
+    transform: rotate(240deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    color: lightcoral;
+  }
+}
+
+.navbar a:hover {
+  transition-duration: 1s;
+  color: #cbc3e3;
+}
