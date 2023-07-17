@@ -162,3 +162,9 @@ body {
 .workedWith:hover {
   transform: scale(1.5);
 }
+
+footer {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
