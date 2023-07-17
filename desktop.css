@@ -76,6 +76,13 @@ body {
   display: flex;
 }
 
+.containerHeader {
+  text-decoration: underline wavy;
+  color: #cbc3e3;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
 #aboutnav {
   margin-bottom: 5rem;
 }
@@ -92,11 +99,8 @@ body {
 }
 
 #projects {
-  margin-bottom: 1000px;
-  text-decoration: underline wavy;
-  color: #cbc3e3;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  justify-content: center;
 }
 
 #contactnav {
@@ -167,4 +171,33 @@ footer {
   color: white;
   display: flex;
   justify-content: center;
+}
+
+#etch-a-sketch {
+  height: 250px;
+  width: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.projectButtons {
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  border: #cbc3e3 dotted 3px;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.projectButtons:visited {
+  color: white;
+}
+
+.projectButtons:hover {
+  background-color: #cbc3e3;
+}
+
+.etch {
+  margin-bottom: 20px;
 }

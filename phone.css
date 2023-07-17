@@ -146,3 +146,36 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+#etch-a-sketch {
+  height: 150px;
+  width: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.projectButtons {
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+  border: #cbc3e3 dotted 3px;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.projectButtons:visited {
+  color: white;
+}
+
+.projectButtons:hover {
+  background-color: #cbc3e3;
+}
+
+.etch {
+  margin-bottom: 20px;
+}
+
+.projectTitle {
+  color: white;
+}
