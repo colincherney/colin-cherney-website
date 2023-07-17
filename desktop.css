@@ -81,10 +81,10 @@ body {
 }
 
 #about {
-  margin-bottom: 1000px;
   text-decoration: underline wavy;
   color: #cbc3e3;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 #projectsnav {
@@ -96,6 +96,7 @@ body {
   text-decoration: underline wavy;
   color: #cbc3e3;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 #contactnav {
@@ -106,6 +107,7 @@ body {
   text-decoration: underline wavy;
   color: #cbc3e3;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 .navbar a {
@@ -138,4 +140,20 @@ body {
 .navbar a:hover {
   transition-duration: 1s;
   color: #cbc3e3;
+}
+
+.aboutText {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+
+#tech {
+  display: flex;
+  justify-content: center;
+}
+
+.techIcons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }

@@ -42,6 +42,7 @@ body {
 
 .navbar a {
   text-decoration: none;
+  color: white;
 }
 
 .navbar a:visited {
