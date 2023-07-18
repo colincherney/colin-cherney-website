@@ -201,9 +201,9 @@ footer {
 .rain {
   position: absolute;
   animation: rain 5s;
-  height: 40px;
-  width: auto;
-  top: -100px;
+  height: 500px;
+  width: 59px;
+  top: -600px;
 }
 
 @keyframes rain {
