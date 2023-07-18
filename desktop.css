@@ -16,11 +16,12 @@ body {
   font-family: "Lumanosimo", cursive;
   position: sticky;
   top: 10px;
-  background-color: lightslategray;
+  background: lightslategray;
   border-radius: 100px;
-  border: lightcoral 5px ridge;
+  border: black 5px ridge;
   margin: auto;
   width: 600px;
+  margin-top: 30px;
 }
 
 .name {
