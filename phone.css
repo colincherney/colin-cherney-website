@@ -197,3 +197,20 @@ footer {
 #calculatorGif {
   margin-top: 200px;
 }
+
+.rain {
+  position: absolute;
+  animation: rain 5s;
+  height: 40px;
+  width: auto;
+  top: -100px;
+}
+
+@keyframes rain {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(4000px);
+  }
+}
