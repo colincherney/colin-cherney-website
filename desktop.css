@@ -15,7 +15,12 @@ body {
   color: white;
   font-family: "Lumanosimo", cursive;
   position: sticky;
-  top: 0;
+  top: 10px;
+  background-color: lightslategray;
+  border-radius: 100px;
+  border: lightcoral 5px ridge;
+  margin: auto;
+  width: 600px;
 }
 
 .name {
@@ -127,6 +132,11 @@ body {
   animation: rotate 0.1s 1;
 }
 
+.navbar a:hover {
+  transition-duration: 1s;
+  color: #cbc3e3;
+}
+
 @keyframes rotate {
   0% {
     transform: rotate(120deg);
@@ -139,11 +149,6 @@ body {
     transform: rotate(360deg);
     color: lightcoral;
   }
-}
-
-.navbar a:hover {
-  transition-duration: 1s;
-  color: #cbc3e3;
 }
 
 .aboutText {

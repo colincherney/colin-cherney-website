@@ -15,7 +15,12 @@ body {
   color: white;
   font-family: "Lumanosimo", cursive;
   position: sticky;
-  top: 0;
+  top: 10px;
+  background-color: lightslategray;
+  border-radius: 100px;
+  margin: auto;
+  width: 600px;
+  border: lightcoral 5px ridge;
 }
 
 .name {

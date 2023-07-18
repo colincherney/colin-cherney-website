@@ -15,7 +15,12 @@ body {
   color: white;
   font-family: "Lumanosimo", cursive;
   position: sticky;
-  top: 0;
+  top: 10px;
+  background-color: lightslategray;
+  border-radius: 100px;
+  margin: auto;
+  width: 350px;
+  border: lightcoral 5px ridge;
 }
 
 .name {
@@ -32,6 +37,10 @@ body {
   font-size: 1.5rem;
   animation: skew 3s infinite;
   animation-direction: alternate;
+}
+
+.containerHeader {
+  text-decoration: underline wavy;
 }
 
 @keyframes skew {
@@ -102,7 +111,6 @@ body {
 
 #projects {
   margin-bottom: 1000px;
-  text-decoration: underline wavy;
   color: #cbc3e3;
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -128,6 +136,7 @@ body {
 #tech {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .techIcons {
