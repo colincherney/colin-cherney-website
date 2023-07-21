@@ -208,3 +208,20 @@ footer {
 #calculatorGif {
   margin-top: 200px;
 }
+
+#resume {
+  width: 184px;
+  margin-top: 32px;
+  text-decoration: none;
+  color: white;
+  border: #61892f solid 3px;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#resume:hover {
+  background-color: #86c232;
+  cursor: pointer;
+}
