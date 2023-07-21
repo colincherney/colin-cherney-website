@@ -193,7 +193,7 @@ footer {
 
 #resume {
   display: flex;
-  width: 184px;
+  width: 156px;
   text-decoration: none;
   color: white;
   border: #61892f solid 3px;
@@ -202,11 +202,33 @@ footer {
   border-radius: 10px;
   text-align: center;
   justify-content: center;
-  margin: auto;
   margin-top: 32px;
 }
 
 #resume:hover {
+  background-color: #86c232;
+  cursor: pointer;
+}
+
+.resume {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+
+#resumeDownload {
+  width: 28px;
+  margin-top: 32px;
+  text-decoration: none;
+  color: white;
+  border: #61892f solid 3px;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#resumeDownload:hover {
   background-color: #86c232;
   cursor: pointer;
 }
