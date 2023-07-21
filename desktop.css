@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background: black;
+  background: #222629;
   background-size: 100%;
 }
 
@@ -12,25 +12,29 @@ body {
   justify-content: center;
   gap: 2rem;
   font-size: 13px;
-  color: white;
+  color: #86c232;
   font-family: "Lumanosimo", cursive;
   position: sticky;
   top: 10px;
-  background: lightslategray;
-  border-radius: 100px;
-  border: black 5px ridge;
+  background: #6b6e70;
   margin: auto;
-  width: 600px;
   margin-top: 30px;
+  opacity: 80%;
+}
+
+.header {
+  background-color: #222629;
+  border-right: 5px dotted white;
 }
 
 .name {
-  color: white;
+  color: #61892f;
   font-family: "Lumanosimo", cursive;
   text-align: left;
   margin-top: 150px;
   font-size: 3rem;
   transition: 0.2s;
+  padding-right: 5rem;
 }
 
 .icons {
@@ -49,11 +53,11 @@ body {
 @keyframes skew {
   0% {
     transform: skewX(20deg);
-    color: brown;
+    color: white;
   }
   100% {
     transform: skewX(-20deg);
-    color: lightcoral;
+    color: white;
   }
 }
 
@@ -63,11 +67,6 @@ body {
   top: 0;
   flex-direction: column;
   padding-left: 5rem;
-}
-
-#name:hover {
-  transform: scale(1.5);
-  cursor: default;
 }
 
 .container {
@@ -84,7 +83,7 @@ body {
 
 .containerHeader {
   text-decoration: underline wavy;
-  color: #cbc3e3;
+  color: #86c232;
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
@@ -95,7 +94,7 @@ body {
 
 #about {
   text-decoration: underline wavy;
-  color: #cbc3e3;
+  color: #86c232;
   text-align: center;
   font-family: "Montserrat", sans-serif;
 }
@@ -113,20 +112,13 @@ body {
   height: 5rem;
 }
 
-#contact {
-  text-decoration: underline wavy;
-  color: #cbc3e3;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-}
-
 .navbar a {
   text-decoration: none;
-  color: white;
+  color: #86c232;
 }
 
 .navbar a:visited {
-  color: white;
+  color: #86c232;
 }
 
 .navbar h1:active {
@@ -177,6 +169,7 @@ footer {
   color: white;
   display: flex;
   justify-content: center;
+  border-top: white dotted 5px;
 }
 
 .gif {
@@ -190,7 +183,7 @@ footer {
   text-decoration: none;
   color: white;
   margin: 20px;
-  border: #cbc3e3 dotted 3px;
+  border: #61892f solid 3px;
   font-size: 25px;
   padding: 10px;
   border-radius: 10px;
@@ -201,7 +194,7 @@ footer {
 }
 
 .projectButtons:hover {
-  background-color: #cbc3e3;
+  background-color: #86c232;
 }
 
 .etch {
@@ -214,21 +207,4 @@ footer {
 
 #calculatorGif {
   margin-top: 200px;
-}
-
-.rain {
-  position: absolute;
-  animation: rain 5s;
-  height: 500px;
-  width: 74px;
-  top: -600px;
-}
-
-@keyframes rain {
-  0% {
-    transform: translateY(0%);
-  }
-  100% {
-    transform: translateY(3000px);
-  }
 }
