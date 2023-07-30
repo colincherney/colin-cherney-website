@@ -1,17 +1,23 @@
-body {
-  margin: 0;
-  padding: 0;
+html {
   color: white;
-  background: black;
+  background: url(stars.gif);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .main-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 1400px;
+  padding: 50px;
   display: flex;
   gap: 100px;
   justify-content: center;
-  margin: 200px;
   font-family: "Alegreya", serif;
   font-family: "Dai Banna SIL", serif;
+  margin-bottom: 0;
+  border-radius: 20px;
 }
 
 .left-side h1 {
@@ -24,4 +30,14 @@ body {
   border-left: lightblue solid;
   padding-left: 50px;
   border-top-left-radius: 10px;
+  margin-bottom: 200px;
+}
+
+.right-side {
+  height: 550px;
+  border-bottom: lightblue solid;
+  border-right: lightblue solid;
+  padding-right: 50px;
+  border-bottom-right-radius: 10px;
+  padding-bottom: 50px;
 }
