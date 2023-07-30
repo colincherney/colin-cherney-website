@@ -1,3 +1,9 @@
+if (window.innerWidth < 1500) {
+  $("#about").attr("href", "#focus");
+  $("#experience").attr("href", "#focus");
+  $("#projects").attr("href", "#focus");
+}
+
 function about() {
   $(".right-side").empty();
   $(".right-side").append("<h2>Location:</h2>");

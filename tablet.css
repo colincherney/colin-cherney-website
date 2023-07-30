@@ -3,6 +3,7 @@ html {
   background: url(stars.gif);
   display: flex;
   justify-content: center;
+  scroll-behavior: smooth;
 }
 
 .main-container {

@@ -1,10 +1,13 @@
 html {
   color: white;
   background: url(stars.gif);
+  display: flex;
+  justify-content: center;
+  scroll-behavior: smooth;
 }
 
 .main-container {
-  width: 200px;
+  width: 300px;
   justify-content: center;
   font-family: "Alegreya", serif;
   font-family: "Dai Banna SIL", serif;
@@ -20,6 +23,7 @@ html {
 
 .contact-div {
   display: flex;
+  justify-content: center;
   margin-top: 72px;
 }
 
@@ -42,7 +46,7 @@ html {
   width: 300px;
   border-bottom: lightblue solid;
   border-right: lightblue solid;
-  padding-right: 50px;
+  padding-right: 20px;
   border-bottom-right-radius: 10px;
   padding-bottom: 50px;
   overflow-y: scroll;
