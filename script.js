@@ -39,7 +39,7 @@ function projects() {
 
   // weather project
   $(".right-side").append("<img class='project-img' src='weather.gif' />");
-  $(".right-side").append("<h2 class='project-title'>Weather Site</h2>");
+  $(".right-side").append("<h2 class='project-title'>Weather</h2>");
   $(".right-side").append("<div class='project-icons'></div>");
   $(".project-icons").append("<img src='icons/html.png' />");
   $(".project-icons").append("<img src='icons/css.png' />");
