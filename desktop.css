@@ -22,6 +22,7 @@ html {
 
 .left-side h1 {
   font-size: 60px;
+  margin-bottom: 0;
 }
 
 .left-side {
@@ -40,4 +41,34 @@ html {
   padding-right: 50px;
   border-bottom-right-radius: 10px;
   padding-bottom: 50px;
+}
+
+.nav-button {
+  margin-top: 20px;
+  display: flex;
+  border: gray solid;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  width: 200px;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.nav-button:hover {
+  background-color: gray;
+  animation: scale 1.2s infinite;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
