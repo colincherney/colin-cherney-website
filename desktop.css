@@ -36,11 +36,19 @@ html {
 
 .right-side {
   height: 550px;
+  width: 600px;
   border-bottom: lightblue solid;
   border-right: lightblue solid;
   padding-right: 50px;
   border-bottom-right-radius: 10px;
   padding-bottom: 50px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.right-side::-webkit-scrollbar {
+  display: none;
 }
 
 .nav-button {
