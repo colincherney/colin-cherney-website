@@ -67,6 +67,7 @@ html {
 .nav-button:hover {
   background-color: gray;
   animation: scale 1.2s infinite;
+  cursor: pointer;
 }
 
 @keyframes scale {
