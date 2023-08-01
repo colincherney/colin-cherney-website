@@ -60,6 +60,27 @@ function projects() {
   );
   $(".right-side").append("<div class='seperate-projects'></div>");
 
+  // car rental site project
+  $(".right-side").append(
+    "<img class='project-img' src='car-rental-site.png' />"
+  );
+  $(".right-side").append(
+    "<h2 class='project-title'>Car Rental (In Progress)</h2>"
+  );
+  $(".right-side").append("<div class='project-icons5'></div>");
+  $(".project-icons5").append("<img src='icons/html.png' />");
+  $(".project-icons5").append("<img src='icons/css.png' />");
+  $(".project-icons5").append("<img src='icons/javascript.png' />");
+  $(".project-icons5").append("<img src='icons/jquery.png' />");
+  $(".right-side").append("<div class='demo-and-source5'></div>");
+  $(".demo-and-source5").append(
+    "<a class='demo-and-source-buttons'>No Demo Yet</a>"
+  );
+  $(".demo-and-source5").append(
+    "<a href='https://github.com/colincherney/car-rental' target='_blank' class='demo-and-source-buttons'>Source Code</a>"
+  );
+  $(".right-side").append("<div class='seperate-projects'></div>");
+
   // etch-a-sketch project
   $(".right-side").append(
     "<img class='project-img' src='etch-a-sketch.gif' />"

@@ -186,3 +186,15 @@ html {
   display: flex;
   justify-content: center;
 }
+
+.project-icons5 {
+  display: flex;
+  justify-content: center;
+}
+
+.demo-and-source5 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 20px;
+}
