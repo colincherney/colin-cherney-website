@@ -15,7 +15,7 @@ function about() {
   $(".right-side").append("<br />");
   $(".right-side").append("<h2>About Me:</h2>");
   $(".right-side").append(
-    "<h3>Hello ! I'm Colin, a passionate and curious student developer with an insatiable appetite for all things related to technology. I believe that technology is not just a tool but a medium to bring innovative ideas to life and make a positive impact on the world.</h3>"
+    "<h3>Hello! I'm Colin, an enthusiastic and curious student with a relentless drive for all things technology-related. I firmly believe that technology serves as not only a tool but also a powerful medium to transform innovative ideas into reality and create a positive impact on both the technological and business landscapes.</h3>"
   );
   $(".right-side").append("<br />");
   $(".right-side").append("<h2>Future Goals:</h2>");
